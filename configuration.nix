@@ -3,10 +3,7 @@
 let user = import ./user.nix;
 in
 {
-  imports =
-    [
-      ./hardware-configuration.nix
-    ];
+  imports = [ ./hardware-configuration.nix ];
 
   boot.loader = {
     efi = {
