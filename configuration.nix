@@ -98,6 +98,7 @@ in
     github-desktop
     neofetch
     gimp
+    spotify
   ];
 
   # Automatically upgrade packages
