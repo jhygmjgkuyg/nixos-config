@@ -27,7 +27,7 @@ in
 
   networking = {
     hostName = "nixos";
-    networkManager.enable = true;
+    networkmanager.enable = true;
   };
 
   time.timeZone = user.timeZone;
