@@ -79,9 +79,6 @@ in
     isNormalUser = true;
     description = user.description;
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      firefox
-    ];
   };
 
   # Enable automatic login for the user.
@@ -101,6 +98,7 @@ in
     neofetch
     gimp
     spotify
+    firefox
   ];
 
   # Automatically upgrade packages
