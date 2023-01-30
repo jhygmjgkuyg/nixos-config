@@ -28,6 +28,8 @@ in
   };
 
   time.timeZone = user.timeZone;
+  # For compatibility with dual-booting Windows
+  time.hardwareClockInLocalTime = true;
 
   # Select internationalisation properties.
   i18n = {
