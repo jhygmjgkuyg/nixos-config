@@ -99,6 +99,7 @@ in
     gimp
     spotify
     firefox
+    drawing
   ];
 
   # Automatically upgrade packages
