@@ -102,6 +102,17 @@ in
     drawing
   ];
 
+  # Exclude some default packages
+  environment.pantheon.excludePackages = with pkgs.pantheon; [
+    elementary-terminal
+    elementary-code
+    elementary-calendar
+    epiphany
+  ];
+  services.xserver.excludePackages = with pkgs; [
+    xterm
+  ];
+
   # Automatically upgrade packages
   system.autoUpgrade.enable = true;
 
